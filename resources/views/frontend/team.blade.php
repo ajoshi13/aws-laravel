@@ -1,0 +1,222 @@
+@extends('frontend.layouts.main')
+
+@section('main-container')
+
+    <section class="team">
+        <div class="container">
+            <div class="team-heading">Our Team</div>
+            <div class="main-post">
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Sujata Gurung</div>
+                    <div class="post">Chairman</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Dil Gurung</div>
+                    <div class="post">CEO</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Hari Bhandari</div>
+                    <div class="post">Editor-in-Chief</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Dinesh Khada</div>
+                    <div class="post">Sub-Editor</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Dinesh Khada</div>
+                    <div class="post">Sub-Editor</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Dinesh Khada</div>
+                    <div class="post">Sub-Editor</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Dinesh Khada</div>
+                    <div class="post">Sub-Editor</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Dinesh Khada</div>
+                    <div class="post">Sub-Editor</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Dinesh Khada</div>
+                    <div class="post">Sub-Editor</div>
+                </div>
+                <div class="post-name">
+                    <img src="img/Picture 1.jpg" alt="">
+                    <div class="name">Dinesh Khada</div>
+                    <div class="post">Sub-Editor</div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <a href="#" class="crunchify-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a> -->
+
+
+    <footer class="footer_section section_wrapper section_wrapper">
+        <div class="footer_top_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-left">
+                            <img src="img/katwal master logo.png" alt="">
+                            <span>सूचना विभाग दर्ता नं: .....</span>
+                            <span>Editor-in-Chief: .......</span>
+                            <span>Chairman: ...........</span>
+                            <span>KTM-15, SWYAMBHU</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="footer_mid">
+                            <h2>Qucik Menu</h2>
+                            <div class="menu-item">
+                                <a href="" class="quick-lilnk">Home Page</a>
+                                <a href="" class="quick-lilnk">About Us</a>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="footer-last">
+                            <h2>Editor’s Message</h2>
+
+                            <div class="message">
+                                <img src="img/katwal main logo.png" />
+                                <span>
+                                    नेपालमा भौगोलिक तथा भूसांस्कृतिक क्षेत्र अनुसार कटुवाल प्रथाको विभिन्न स्वरुप रहेको
+                                    भए सामाजिक, सांस्कृतिक वा प्रशासनिक आधिकारिकता भएको व्यक्तिले अह्राए अनुसार सूचनाको
+                                    सार्वजनिक संप्रेषण गर्ने व्यक्तिलाई नेपाली परम्परागत समाजमा कटुवाल भनेर परिभाषित
+                                    गरेको छ ।
+                                    <br>
+                                    यसै प्रथालाई अहिले सूचनाप्रविधिको युगमा जमानाअनुसार परिस्कृत गर्ने प्रयास गरेका छौं ।
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <div class="container">
+                <div class="last-footer">
+                    <div class="copyright">
+                        © Copyright 2022 - ekatuwal.com
+                        <a href="https://uiCookies.com" title="uiCookies">uiCookies</a>
+                    </div>
+
+                    <div class="devlopment">
+                        Development By : Alvin Media Pvt.Ltd
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- media nav -->
+
+    <section>
+        <div id="mySidenav" class="slading">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <div class="media-nav">
+
+                <div class="mainlogo">
+                    <img src="img/Ek Master head.png" alt="">
+                </div>
+                <div class="date_time">
+                    <h3>आइतवार, २ मंसिर २०७८</h3>
+                </div>
+
+                <div class="nav__list">
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bx-home nav__icon'></i>
+                        <span class="nav__name">होम पेज</span>
+                    </a>
+
+                    <div class="nav__dropdown">
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-layer nav__icon'></i>
+                            <span class="nav__name">क्याटागोरिज</span>
+                            <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                        </a>
+
+                        <div class="nav__dropdown-collapse">
+                            <div class="nav__dropdown-content">
+                                <a href="samachar.html" class="nav__dropdown-item">समाचार</a>
+                                <a href="Rajiniti.html" class="nav__dropdown-item">राजनीति</a>
+                                <a href="#" class="nav__dropdown-item">मोफसल</a>
+                                <a href="#" class="nav__dropdown-item">मनोरञ्जन</a>
+                                <a href="#" class="nav__dropdown-item">खेलकुद</a>
+                                <a href="#" class="nav__dropdown-item">विविध</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bx-user-voice nav__icon'></i>
+                        <span class="nav__name">विचार</span>
+                    </a>
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bxs-bank nav__icon'></i>
+                        <span class="nav__name">कर्पाेरट</span>
+                    </a>
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bx-bar-chart-alt nav__icon'></i>
+                        <span class="nav__name">शेयरबजार</span>
+                    </a>
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bx-globe nav__icon'></i>
+                        <span class="nav__name">अन्तरराष्ट्रिय</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+   @endsection

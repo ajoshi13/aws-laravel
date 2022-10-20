@@ -1,0 +1,140 @@
+.dash-content .news-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.dash-content .news-list .left button {
+  padding: 3px 15px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-weight: 800;
+  text-align: center;
+  background-color: #a4b9f0;
+  border: none;
+}
+.dash-content .news-list .left .heading {
+  margin: 7px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.dash-content .news-list .left .contant {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.dash-content .news-list .left .publish-date {
+  font-size: 12px;
+  font-weight: 700;
+}
+.dash-content .news-list .right button {
+  padding: 3px 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+}
+
+form a {
+  text-decoration: none;
+  color: white;
+}
+form a:hover {
+  color: yellow;
+}
+form .form-group {
+  padding: 15px 0;
+}
+form .label-head {
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 18px;
+}
+form .col-sm .form-input {
+  background: #fff;
+}
+form .col-sm .form-input input {
+  display: none;
+}
+form .col-sm .form-input label {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background: orange;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: Uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form .col-sm .form-input img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  background: #fff;
+}
+.form-input input {
+  display: none;
+}
+.form-input label {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background: orange;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: Uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-input img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: none;
+  margin-bottom: 20px;
+}
+.form-input .slider {
+  margin-bottom: 40px;
+}
+
+.main-advpost .slider {
+  margin-top: 100px;
+}
+
+.slider-advpost {
+  margin-top: 100px;
+}
+.slider-advpost .slider {
+  margin-bottom: 40px;
+}
+.slider-advpost .slider-upload {
+  margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+  .dash-content .news-list {
+    display: block;
+  }
+}/*# sourceMappingURL=styel.css.map */

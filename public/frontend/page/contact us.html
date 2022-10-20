@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>newsLand</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+    <!-- <link rel="stylesheet" href="slide.css"> -->
+    <link rel="stylesheet" href="scss/main.css">
+    <!-- <link rel="stylesheet" href="css/contact us.css"> -->
+    <!-- <link rel="stylesheet" href="scss/page.css"> -->
+</head>
+
+<body>
+
+    <!-- Header part start-->
+
+    <header class="header-sticky">
+        <div class="header__nav">
+            <div class="container">
+                <div class="top__nav">
+                    <div class="name">
+                        <a href="index.html">ekatuwal</a>
+                    </div>
+
+                    <div class="use__contact">
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <span style="font-size:25px;cursor:pointer" class="open_btn" onclick="openNav()">&#9776;</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+
+    <div class="about-us">
+    
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              
+    
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  
+                  <h3 class="heading mb-4">Let's talk about everything!</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas debitis, fugit natus?</p>
+    
+                  <img src="img/undraw-contact.svg" alt="Image" class="img-fluid">
+    
+    
+                </div>
+                <div class="col-md-6">
+                  
+                  <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                        <div class="row">
+                        <div class="col-md-12 form-group">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12 form-group">
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12 form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12 ">
+                            <textarea class="form-control" name="message" id="message" cols="50" rows="7" placeholder="Write your message"></textarea>
+                        </div>
+                        </div>  
+                        <div class="row">
+                        <div class="col-12">
+                            <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                        <span class="submitting"></span>
+                        </div>
+                        </div>
+                  </form>
+    
+                  <div id="form-message-warning mt-4"></div> 
+                  <div id="form-message-success">
+                    Your message was sent, thank you!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+
+    
+
+
+
+
+
+    <footer class="footer_section section_wrapper section_wrapper">
+        <div class="footer_top_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="text_widget footer_widget">
+                            <div class="footer_widget_title">
+                                <h2>About Sports Mag</h2>
+                            </div>
+
+                            <div class="footer_widget_content">Collaborativelyadministrate empowered
+                                marketsplug-and-play networks. Dynamic procrastinate after.marketsplug-and-play
+                                networks. Dynamic procrastinate users after. Dynamic procrastinateafter.
+                                marketsplug-and-play networks. Dynamic procrastinate users after...
+                            </div>
+                        </div>
+                        <!--text_widget-->
+                    </div>
+                    <!--col-xs-3-->
+
+                    <div class="col-md-6">
+                        <div class="footer_widget">
+                            <div class="footer_widget_title">
+                                <h2>Discover</h2>
+                            </div>
+                            <div class="footer_menu_item ">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <ul class="nav navbar-nav ">
+                                            <li><a href="../navbar/">Baseball</a></li>
+                                            <li><a href="../navbar-static-top/">Football</a></li>
+                                            <li><a href="./">Cricket</a></li>
+                                            <li><a href="../navbar/">Rugbi</a></li>
+                                            <li><a href="../navbar/">Hockey</a></li>
+                                            <li><a href="../navbar-static-top/">Boxing</a></li>
+                                            <li><a href="./">Golf</a></li>
+                                            <li><a href="../navbar/">Tennis</a></li>
+                                            <li><a href="../navbar/">Horse Racing</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--col-sm-4-->
+                                    <div class="col-sm-4 ">
+                                        <ul class="nav navbar-nav  ">
+                                            <li><a href="../navbar/">Track & Field</a></li>
+                                            <li><a href="../navbar-static-top/">MembershipContact us</a></li>
+                                            <li><a href="./">Newsletter Alerts</a></li>
+                                            <li><a href="../navbar/">Podcast</a></li>
+                                            <li><a href="../navbar/">Blog</a></li>
+                                            <li><a href="../navbar-static-top/">SMS Subscription</a></li>
+                                            <li><a href="./">Advertisement Policy</a></li>
+                                            <li><a href="../navbar/">Jobs</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--col-sm-4-->
+                                    <div class="col-sm-4">
+                                        <ul class="nav navbar-nav ">
+                                            <li><a href="../navbar/">Report technical issue</a></li>
+                                            <li><a href="../navbar-static-top/">Complaints & Corrections</a></li>
+                                            <li><a href="./">Terms & Conditions</a></li>
+                                            <li><a href="../navbar-static-top/">Privacy Policy</a></li>
+                                            <li><a href="./">Cookie Policy</a></li>
+                                            <li><a href="../navbar/">Securedrop</a></li>
+                                            <li><a href="../navbar/">Archives</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--col-sm-4-->
+                                </div>
+                                <!--row-->
+                            </div>
+                            <!--footer_menu_item-->
+                        </div>
+                        <!--footer_widget-->
+                    </div>
+                    <!--col-xs-6-->
+
+                    <div class="col-md-3">
+                        <div class="text_widget footer_widget">
+                            <div class="footer_widget_title">
+                                <h2>Editor’s Message</h2>
+                            </div>
+                            <!-- <img src="assets/img/img-author.jpg" /> -->
+                            <div class="footer_widget_content">Collaborativelyadministrate empowered
+                                marketsplug-and-play networks. Dynamic procrastinate after.marketsplug-and-play
+                                networks. Dynamic procrastinate users after. Dynamic procrastinateafter.
+                                marketsplug-and-play networks. Dynamic procrastinate users after...</div>
+                        </div>
+                    </div>
+                    <!--col-xs-3-->
+                </div>
+                <!--row-->
+            </div>
+            <!--container-->
+        </div>
+        <!--footer_top_section-->
+        <a href="#" class="crunchify-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+        <div class="copyright-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        Sup-Editor: Ram Bdr Thapa
+                    </div>
+                    <!--col-xs-3-->
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            © Copyright 2015 - Sports News Mag.com. Design by: <a href="https://uiCookies.com"
+                                title="uiCookies">uiCookies</a>
+                        </div>
+                    </div>
+                    <!--col-xs-6-->
+                    <div class="col-md-3">
+                        Sports News Magazine
+                    </div>
+                    <!--col-xs-3-->
+                </div>
+                <!--row-->
+            </div>
+            <!--container-->
+        </div>
+        <!--copyright-section-->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- media nav start-->
+
+    <section>
+        <div id="mySidenav" class="slading">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <div class="media-nav">
+
+                <div class="mainlogo">
+                    <img src="img/main logo.png" alt="">
+                </div>
+                <div class="date_time">
+                    <h3>आइतवार, २ मंसिर २०७८</h3>
+                </div>
+
+                <div class="nav__list">
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bx-home nav__icon'></i>
+                        <span class="nav__name">होम पेज</span>
+                    </a>
+
+                    <div class="nav__dropdown">
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-layer nav__icon'></i>
+                            <span class="nav__name">क्याटागोरिज</span>
+                            <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                        </a>
+
+                        <div class="nav__dropdown-collapse">
+                            <div class="nav__dropdown-content">
+                                <a href="#" class="nav__dropdown-item">समाचार</a>
+                                <a href="#" class="nav__dropdown-item">राजनीति</a>
+                                <a href="#" class="nav__dropdown-item">मोफसल</a>
+                                <a href="#" class="nav__dropdown-item">मनोरञ्जन</a>
+                                <a href="#" class="nav__dropdown-item">खेलकुद</a>
+                                <a href="#" class="nav__dropdown-item">विविध</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bx-user-voice nav__icon'></i>
+                        <span class="nav__name">विचार</span>
+                    </a>
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bxs-bank nav__icon'></i>
+                        <span class="nav__name">कर्पाेरट</span>
+                    </a>
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bx-bar-chart-alt nav__icon'></i>
+                        <span class="nav__name">शेयरबजार</span>
+                    </a>
+
+                    <a href="#" class="nav__link active">
+                        <i class='bx bx-globe nav__icon'></i>
+                        <span class="nav__name">अन्तरराष्ट्रिय</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- media nav end-->
+
+
+
+
+
+
+    <script src="js/modal.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/slider.js"></script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="owlcarousel/jqueary.main.js"></script>
+    <!-- <script src="owlcarousel/owl.carousel.min.js"></script> -->
+
+
+
+
+
+
+</body>
+
+</html>
